@@ -1,4 +1,4 @@
-# Project 2: Implied Volatility Surface & Skew Analysis
+# Implied Volatility Surface & Skew Analysis
 
 ## Overview
 This project extracts real-time option chain data from Yahoo Finance via `yfinance`, cleans and filters the bid-ask quotes, and numerically extracts Black-Scholes Implied Volatility (IV) across various strike prices for a given expiration. The calculated IVs are compared directly against Yahoo's reported implied volatility to analyze pricing dynamics, model limitations, and market skew/smile behaviors.
